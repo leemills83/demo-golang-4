@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: demo-app
+  description: demo-app
+  annotations: 
+    github.com/project-slug: leemills83/demo-golang-4
+    backstage.io/github-actions-id: leemills83/demo-golang-4
+spec:
+  type: service
+  lifecycle: experimental
+  owner: leemills83
